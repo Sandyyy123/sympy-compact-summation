@@ -48,3 +48,12 @@ index-by-index.
 
 ---
 Prototype by Dr. Sandeep Grover.
+
+## Tests
+
+```bash
+pip install pytest
+python -m pytest -q tests/
+```
+
+8 tests cover extraction, consecutive packing, zero-fill, three-form agreement, symbolic sum, sum-preservation, configurable start, and empty input.
